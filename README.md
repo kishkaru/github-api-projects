@@ -3,7 +3,14 @@ github-api-projects
 
 A repository for my GitHub API projects.
 
-General requirements for all scripts: have the environment variable `GITHUB_API_TOKEN` in your `.bash_profile` or `.bash_rc`  
+**General requirements:**  
+1. Install Ruby
+```
+sudo apt-get install ruby
+```
+2. Install Octokit  
+```gem install octokit```
+3. Add environment variable `GITHUB_API_TOKEN` in your `.bash_profile` or `.bash_rc`  
 [See here how to set create a GitHub Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use)
 
 ## delete_repo_subscriptions.rb
